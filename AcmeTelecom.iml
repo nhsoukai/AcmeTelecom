@@ -8,6 +8,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="external" level="project" />
+    <orderEntry type="library" name="jmock-2.6" level="project" />
+    <orderEntry type="library" name="junit-4.8.2-src" level="project" />
+    <orderEntry type="library" name="joda-time-2.3-javadoc" level="project" />
   </component>
 </module>
 
