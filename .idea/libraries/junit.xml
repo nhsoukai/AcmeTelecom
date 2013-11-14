@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="junit">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/specification-by-example-exercise/lib/junit" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/specification-by-example-exercise/lib/junit" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Downloads/specification-by-example-exercise/lib/junit" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads/specification-by-example-exercise/lib/junit" recursive="false" type="SOURCES" />
+  </library>
+</component>
