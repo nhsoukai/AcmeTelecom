@@ -1,6 +1,6 @@
 package com.acmetelecom;
 
-/**
+/*
  * Created with IntelliJ IDEA.
  * User: andreipetric
  * Date: 13/11/2013
@@ -13,7 +13,7 @@ public class Runner {
         BillingSystem billingSystem = new BillingSystem();
         billingSystem.callInitiated("447722113434", "447766511332");
         sleepSeconds(1);
-
+        //coucou Sou
         billingSystem.callCompleted("447722113434", "447766511332");
         /*
         billingSystem.callInitiated("447722113434", "447711111111");
