@@ -5,7 +5,8 @@ import java.util.Date;
 
 class DaytimePeakPeriod {
 
-    public boolean offPeak(Date time) {
+    //Made this function static
+    public static boolean offPeak(Date time) {
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(time);
         int hour = calendar.get(Calendar.HOUR_OF_DAY);
