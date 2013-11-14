@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="785fb098-fd06-4090-bd2d-378e67f528f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/acmetelecom/BillGeneratorInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/acmetelecom/MoneyFormatterInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/BillGenerator.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/BillGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/DaytimePeakPeriod.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/DaytimePeakPeriod.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/MoneyFormatter.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/MoneyFormatter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/Runner.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/Runner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AcmeTelecom.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384427766820" ignored="false" />
+    <file path="/Dummy.txt" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384430265121" ignored="false" />
     <file path="$PROJECT_DIR$/../git_repo/c475_cw2_acmetelecom/AcmeTelecom/.idea/workspace.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384365371713" ignored="false" />
     <file path="$PROJECT_DIR$/lib/joda-time-2.3/src/main/java/org/joda/time/ReadableDuration.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384365638022" ignored="false" />
     <file path="$PROJECT_DIR$/lib/joda-time-2.3/src/main/java/org/joda/time/tz/DefaultNameProvider.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384365638022" ignored="false" />
@@ -528,7 +521,11 @@
       <created>1384365702467</created>
       <updated>1384365702467</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added libraries">
+      <created>1384430275872</created>
+      <updated>1384430275872</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
