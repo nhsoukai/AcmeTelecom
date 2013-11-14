@@ -1,6 +1,6 @@
 package com.acmetelecom;
 
-/**
+/*
  * Created with IntelliJ IDEA.
  * User: andreipetric
  * Date: 13/11/2013
@@ -27,3 +27,4 @@ public class Runner {
     private static void sleepSeconds(int n) throws InterruptedException {
         Thread.sleep(n * 1000);
     } }
+//testSam
