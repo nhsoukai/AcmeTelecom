@@ -6,7 +6,7 @@
     </list>
     <ignored path="AcmeTelecom.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384390333400" ignored="false" />
+    <file path="/Dummy.txt" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384390348980" ignored="false" />
     <file path="$PROJECT_DIR$/../git_repo/c475_cw2_acmetelecom/AcmeTelecom/.idea/workspace.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384365371713" ignored="false" />
     <file path="$PROJECT_DIR$/lib/joda-time-2.3/src/main/java/org/joda/time/ReadableDuration.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384365638022" ignored="false" />
     <file path="$PROJECT_DIR$/lib/joda-time-2.3/src/main/java/org/joda/time/tz/DefaultNameProvider.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384365638022" ignored="false" />
@@ -205,6 +205,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="AcmeTelecom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AcmeTelecom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AcmeTelecom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -429,7 +443,11 @@
       <created>1384390342295</created>
       <updated>1384390342295</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added libraries">
+      <created>1384390355327</created>
+      <updated>1384390355327</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
