@@ -1,17 +1,33 @@
 package com.acmetelecom;
 
-import com.acmetelecom.customer.CentralCustomerDatabase;
-import com.acmetelecom.customer.CentralTariffDatabase;
-import com.acmetelecom.customer.Customer;
-import com.acmetelecom.customer.Tariff;
+import com.acmetelecom.customer.*;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.*;
 
 public class BillingSystem {
+    private TariffLibrary tariffLibrary;
+    private CustomerDatabase customerDatabase;
+    private BillGeneratorInterface billGenerator;
+
 
     private List<CallEvent> callLog = new ArrayList<CallEvent>();
+
+    //TESTING CONSTRUCTOR inserts a seam into the object
+    public BillingSystem(TariffLibrary tarifflib, CustomerDatabase custDB,
+                              BillGeneratorInterface bgi) {
+        tariffLibrary = tarifflib;
+        customerDatabase = custDB;
+        billGenerator = bgi;
+    }
+
+    //Default constructor called normally
+    public BillingSystem() {
+        this(CentralTariffDatabase.getInstance(),
+                      CentralCustomerDatabase.getInstance(),
+                      new BillGenerator());
+    }
 
     public void callInitiated(String caller, String callee) {
         callLog.add(new CallStart(caller, callee));
@@ -22,7 +38,8 @@ public class BillingSystem {
     }
 
     public void createCustomerBills() {
-        List<Customer> customers = CentralCustomerDatabase.getInstance().getCustomers();
+        //Removed the instantiation of the customerDatabase here - injected in constructor
+        List<Customer> customers = customerDatabase.getCustomers();
         for (Customer customer : customers) {
             createBillFor(customer);
         }
@@ -54,13 +71,12 @@ public class BillingSystem {
         List<LineItem> items = new ArrayList<LineItem>();
 
         for (Call call : calls) {
-
-            Tariff tariff = CentralTariffDatabase.getInstance().tarriffFor(customer);
+            //Removed the instantiation of the tarrifLibrary here - injected in constructor
+            Tariff tariff = tariffLibrary.tarriffFor(customer);
 
             BigDecimal cost;
 
-            DaytimePeakPeriod peakPeriod = new DaytimePeakPeriod();
-            if (peakPeriod.offPeak(call.startTime()) && peakPeriod.offPeak(call.endTime()) && call.durationSeconds() < 12 * 60 * 60) {
+            if (DaytimePeakPeriod.offPeak(call.startTime()) && DaytimePeakPeriod.offPeak(call.endTime()) && call.durationSeconds() < 12 * 60 * 60) {
                 cost = new BigDecimal(call.durationSeconds()).multiply(tariff.offPeakRate());
             } else {
                 cost = new BigDecimal(call.durationSeconds()).multiply(tariff.peakRate());
@@ -71,8 +87,8 @@ public class BillingSystem {
             totalBill = totalBill.add(callCost);
             items.add(new LineItem(call, callCost));
         }
-
-        new BillGenerator().send(customer, items, MoneyFormatter.penceToPounds(totalBill));
+        //Removed the instantiation of the billGenerator here - injected in constructor
+        billGenerator.send(customer, items, MoneyFormatter.penceToPounds(totalBill));
     }
 
     static class LineItem {
