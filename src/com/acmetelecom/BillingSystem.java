@@ -11,8 +11,8 @@ public class BillingSystem {
     private CustomerDatabase customerDatabase;
     private BillGeneratorInterface billGenerator;
 
-
-    private List<CallEvent> callLog = new ArrayList<CallEvent>();
+    //Andrei - made this attribute protected
+    protected List<CallEvent> callLog = new ArrayList<CallEvent>();
 
     //TESTING CONSTRUCTOR inserts a seam into the object
     public BillingSystem(TariffLibrary tarifflib, CustomerDatabase custDB,
@@ -47,6 +47,11 @@ public class BillingSystem {
     }
 
     private void createBillFor(Customer customer) {
+        //Andrei - Moved constructor out of customer loop
+        DaytimePeakPeriod peakPeriod = new DaytimePeakPeriod();
+
+
+
         List<CallEvent> customerEvents = new ArrayList<CallEvent>();
         for (CallEvent callEvent : callLog) {
             if (callEvent.getCaller().equals(customer.getPhoneNumber())) {
@@ -70,13 +75,15 @@ public class BillingSystem {
         BigDecimal totalBill = new BigDecimal(0);
         List<LineItem> items = new ArrayList<LineItem>();
 
+
+
         for (Call call : calls) {
             //Removed the instantiation of the tarrifLibrary here - injected in constructor
             Tariff tariff = tariffLibrary.tarriffFor(customer);
 
             BigDecimal cost;
 
-            if (DaytimePeakPeriod.offPeak(call.startTime()) && DaytimePeakPeriod.offPeak(call.endTime()) && call.durationSeconds() < 12 * 60 * 60) {
+            if (peakPeriod.offPeak(call.startTime()) && peakPeriod.offPeak(call.endTime()) && call.durationSeconds() < 12 * 60 * 60) {
                 cost = new BigDecimal(call.durationSeconds()).multiply(tariff.offPeakRate());
             } else {
                 cost = new BigDecimal(call.durationSeconds()).multiply(tariff.peakRate());
