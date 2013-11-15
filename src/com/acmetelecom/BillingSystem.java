@@ -48,7 +48,7 @@ public class BillingSystem {
 
     private void createBillFor(Customer customer) {
         //Andrei - Moved constructor out of customer loop
-        DaytimePeakPeriod peakPeriod = new DaytimePeakPeriod();
+
 
 
 
@@ -83,11 +83,14 @@ public class BillingSystem {
 
             BigDecimal cost;
 
-            if (peakPeriod.offPeak(call.startTime()) && peakPeriod.offPeak(call.endTime()) && call.durationSeconds() < 12 * 60 * 60) {
+
+            cost= new BigDecimal(DaytimePeakPeriod.offPeakDuration(call)).multiply(tariff.offPeakRate()).add( new BigDecimal(DaytimePeakPeriod.peakDuration(call)).multiply(tariff.peakRate()));
+
+           /* if (peakPeriod.offPeak(call.startTime()) && peakPeriod.offPeak(call.endTime()) && call.durationSeconds() < 12 * 60 * 60) {
                 cost = new BigDecimal(call.durationSeconds()).multiply(tariff.offPeakRate());
             } else {
                 cost = new BigDecimal(call.durationSeconds()).multiply(tariff.peakRate());
-            }
+            } */
 
             cost = cost.setScale(0, RoundingMode.HALF_UP);
             BigDecimal callCost = cost;

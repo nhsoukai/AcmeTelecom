@@ -5,6 +5,7 @@ import com.acmetelecom.CallStart;
 import com.natpryce.pearlfish.adaptor.junit.ApprovalRule;
 import org.junit.Rule;
 import org.junit.Test;
+import org.joda.time.*;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -22,12 +23,12 @@ public class BillTest {
         CallStart callStart = new CallStart("hey","hi");
         Thread.sleep(2000);
         CallEnd callEnd = new CallEnd("hey","hi");
-        long start = callStart.time()/1000;
-        long end = callEnd.time()/1000;
+
+        Duration duration= new Duration(callStart.time(),callEnd.time());
 
         Map<String,Object> results = new HashMap<String, Object>();
 
-        results.put("duration", end-start);
+        results.put("duration", duration.getStandardSeconds());
 
         approval.check(results);
     }
