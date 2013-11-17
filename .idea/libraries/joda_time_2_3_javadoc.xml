@@ -6,6 +6,8 @@
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/lib/joda-time-2.3-javadoc.jar!/" />
     </JAVADOC>
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/joda-time-2.3-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

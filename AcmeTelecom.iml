@@ -7,10 +7,33 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="asm-3.0" level="project" />
+    <orderEntry type="library" name="asm-commons-3.0" level="project" />
+    <orderEntry type="library" name="asm-tree-3.0" level="project" />
+    <orderEntry type="library" name="junit4" level="project" />
+    <orderEntry type="library" name="cglib-nodep-2.1_3" level="project" />
+    <orderEntry type="library" name="hamcrest-core-1.1" level="project" />
+    <orderEntry type="library" name="hamcrest-library-1.1" level="project" />
+    <orderEntry type="library" name="jmock-2.4.0" level="project" />
+    <orderEntry type="library" name="jmock-legacy-2.4.0" level="project" />
+    <orderEntry type="library" name="mockito-all-1.7" level="project" />
+    <orderEntry type="library" name="objenesis-1.0" level="project" />
     <orderEntry type="library" name="external" level="project" />
-    <orderEntry type="library" name="jmock-2.6" level="project" />
-    <orderEntry type="library" name="junit-4.8.2-src" level="project" />
     <orderEntry type="library" name="joda-time-2.3-javadoc" level="project" />
+    <orderEntry type="library" name="junit-4.8.2-src" level="project" />
+    <orderEntry type="library" name="jmock-2.6" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/JDave/Depencencies/cglib-nodep-2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="jdave-core-1.1" level="project" />
+    <orderEntry type="library" name="jdave-junit4-1.1" level="project" />
+    <orderEntry type="library" name="jdave-unfinalizer-1.2-20101229.103151-1" level="project" />
   </component>
 </module>
 

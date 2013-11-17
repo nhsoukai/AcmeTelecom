@@ -1,0 +1,32 @@
+<html>
+<head></head>
+<body>
+<h1>
+Acme Telecom
+</h1>
+<h2>Andrei/0771 - Price Plan: Standard</h2>
+<table border="1">
+<tr><th width="160">Time</th><th width="160">Number</th><th width="160">Duration</th><th width="160">Cost</th></tr>
+<tr><td>12/12/13 5:00 AM</td><td>0772</td><td>10:00</td><td>0.18</td></tr>
+<tr><td>12/12/13 6:50 AM</td><td>0772</td><td>20:00</td><td>0.54</td></tr>
+<tr><td>12/12/13 8:00 AM</td><td>0772</td><td>10:00</td><td>0.36</td></tr>
+</table>
+<h2>Total: 1.26</h2>
+</body>
+</html>
+<html>
+<head></head>
+<body>
+<h1>
+Acme Telecom
+</h1>
+<h2>Bianca/0772 - Price Plan: Expensive</h2>
+<table border="1">
+<tr><th width="160">Time</th><th width="160">Number</th><th width="160">Duration</th><th width="160">Cost</th></tr>
+<tr><td>12/12/13 6:50 PM</td><td>0771</td><td>20:00</td><td>0.54</td></tr>
+<tr><td>12/12/13 8:00 PM</td><td>0771</td><td>10:00</td><td>0.24</td></tr>
+<tr><td>12/12/13 6:00 AM</td><td>0771</td><td>840:00</td><td>37.44</td></tr>
+</table>
+<h2>Total: 41.52</h2>
+</body>
+</html>

@@ -2,21 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="785fb098-fd06-4090-bd2d-378e67f528f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/acceptance/AcceptanceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/acmetelecom/BillingSystemTestDummy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/acceptance/TariffMock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/Call.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/Call.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/CallEnd.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/CallEnd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/CallEvent.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/CallEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/CallStart.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/CallStart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/DaytimePeakPeriod.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/DaytimePeakPeriod.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/Runner.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/Runner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/testinfected/IMG00001.GIF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/testinfected/IMG00002.GIF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/testinfected/IMG00003.GIF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/cookstour/Image1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/cookstour/Image2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/cookstour/Image3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/cookstour/Image4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/cookstour/Image5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/cookstour/Image6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/cookstour/Image7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/asm-3.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/asm-commons-3.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/asm-tree-3.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/cglib-nodep-2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/cglib-nodep-2.1_3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/cglib-nodep-2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/hamcrest-core-1.1-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/hamcrest-core-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/hamcrest-library-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jdave-core-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jdave-junit4-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jdave-unfinalizer-1.1-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jdave-unfinalizer-1.1-rc1-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jdave-unfinalizer-1.1-rc1-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jdave-unfinalizer-1.1-rc1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jdave-unfinalizer-1.1-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jdave-unfinalizer-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jdave-unfinalizer-1.2-20101229.103151-1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/jmock-2.4.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/jmock-junit4-2.4.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/jmock-legacy-2.4.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/cookbook/logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/testinfected/logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/mockito-all-1.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/objenesis-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/objenesis-tck-2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/org/junit/tests/running/core/CommandLineTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/ReleaseNotes4.4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/ReleaseNotes4.4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/ReleaseNotes4.5.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/ReleaseNotes4.6.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/org/junit/tests/running/core/SystemExitTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/asm_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/asm_commons_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/asm_tree_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cglib_nodep_2_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/cookbook/cookbook.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/cookstour/cookstour.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expected" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/acceptance/expected" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/faq/faq.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_library_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/index.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jdave_core_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jdave_junit4_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jdave_unfinalizer_1_2_20101229_103151_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jmock_2_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jmock_legacy_2_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/markdown.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/objenesis_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/testinfected/testing.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/acceptance/AcceptanceTest.java" afterPath="$PROJECT_DIR$/src/acceptance/AcceptanceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcmeTelecom.iml" afterPath="$PROJECT_DIR$/AcmeTelecom.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/joda_time_2_3_javadoc.xml" afterPath="$PROJECT_DIR$/.idea/libraries/joda_time_2_3_javadoc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AcmeTelecom.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384540376899" ignored="false" />
+    <file path="/Dummy.txt" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384697163908" ignored="false" />
     <file path="$PROJECT_DIR$/../git_repo/c475_cw2_acmetelecom/AcmeTelecom/.idea/workspace.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384365371713" ignored="false" />
     <file path="$PROJECT_DIR$/lib/joda-time-2.3/src/main/java/org/joda/time/ReadableDuration.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384365638022" ignored="false" />
     <file path="$PROJECT_DIR$/lib/joda-time-2.3/src/main/java/org/joda/time/tz/DefaultNameProvider.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384365638022" ignored="false" />
@@ -58,9 +114,175 @@
     <file path="$PROJECT_DIR$/../AcmeTelecomsecond/src/com/acmetelecom/Call.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384534074254" ignored="false" />
     <file path="$PROJECT_DIR$/../AcmeTelecomsecond/src/com/acmetelecom/HtmlPrinter.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384534318264" ignored="false" />
     <file path="/BillingSystemTestDummy.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384536668839" ignored="false" />
-    <file path="/AcceptanceTest.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384540574528" ignored="false" />
-    <file path="$USER_HOME$/Downloads/audio-guide/.idea/workspace.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384540435907" ignored="false" />
+    <file path="/AcceptanceTest.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384697028978" ignored="false" />
+    <file path="$USER_HOME$/Downloads/audio-guide/.idea/workspace.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688296919" ignored="false" />
     <file path="/TariffMock.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384539407529" ignored="false" />
+    <file path="$PROJECT_DIR$/../SWCW/.idea/workspace.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688331772" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runners/package-frame.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285295" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runners/Parameterized.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285295" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runners/BlockJUnit4ClassRunner.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285295" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runners/package-summary.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285324" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runners/ParentRunner.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285295" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runners/Suite.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285295" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runners/JUnit4.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285295" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/matchers/package-summary.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285295" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/matchers/package-tree.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285295" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/matchers/package-frame.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285295" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/hamcrest/core/package-summary.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285295" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/hamcrest/core/DescribedAs.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285295" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/hamcrest/core/AllOf.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285295" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/hamcrest/core/Is.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285295" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/hamcrest/core/package-frame.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/hamcrest/core/package-tree.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/hamcrest/core/AnyOf.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/hamcrest/core/IsNull.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/hamcrest/core/IsAnything.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/hamcrest/core/IsInstanceOf.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/hamcrest/core/IsEqual.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/index-all.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285324" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/hamcrest/core/IsSame.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/hamcrest/core/IsNot.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/AfterClass.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285324" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/Assert.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/Ignore.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/package-frame.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/Test.None.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/BeforeClass.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/Test.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/package-tree.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/After.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285324" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/Before.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285324" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/ComparisonFailure.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/package-summary.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/Assume.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/Result.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/Runner.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285324" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/package-frame.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285296" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/JUnitCore.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285324" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/Request.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285325" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/Description.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285325" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/package-summary.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/Describable.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/package-tree.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/RunWith.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/manipulation/package-tree.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/manipulation/Filterable.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/manipulation/Sortable.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/manipulation/package-frame.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/manipulation/NoTestsRemainException.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/manipulation/package-summary.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/manipulation/Sorter.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/manipulation/Filter.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285324" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/notification/package-summary.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/notification/package-frame.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/notification/package-tree.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/notification/RunNotifier.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285599" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/notification/StoppedByUserException.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285324" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/notification/Failure.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/build.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runner/notification/RunListener.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runners/package-tree.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runners/Parameterized.Parameters.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runners/AllTests.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="$USER_HOME$/JDave/Depencencies/junit4.5/javadoc/org/junit/runners/Suite.SuiteClasses.html" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384685285297" ignored="false" />
+    <file path="/AsmLineNumberStrategy.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384687689362" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/VisitingBehavior.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783977" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/IBehaviorResults.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783977" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/containment/CollectionContainment.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783977" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/IFileHandler.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783977" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/mock/MockSupport.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783984" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/containment/AnyContainment.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783977" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/IContract.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783977" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/ISpecIntrospection.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783977" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/containment/MapContainment.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783977" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/containment/AllContainment.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783977" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/util/Primitives.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783977" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/Context.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783977" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/equality/DeltaEqualityCheck.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783977" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/tools/Formats.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783977" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/AsmLineNumberStrategy.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783978" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/support/IO.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783978" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/ExactExpectedExceptionWithMessage.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783978" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/ExpectedNoThrow.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783978" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/MethodLineNumberComparator.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783978" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/ExactExpectedException.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783978" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/IContainment.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783978" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/StringEqualsEqualityCheck.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783978" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/equality/EqualsEqualityCheck.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783978" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/tools/XmlFormat.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783978" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/util/Diff.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783978" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/Where.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783978" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/DefaultSpecIntrospection.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783978" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/equality/NotEqualsEqualityCheck.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783978" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/Resolution.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783979" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/support/Assert.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783979" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/containment/NotContainment.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783979" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/ExecutingBehavior.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783979" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/ExpectationFailedException.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783979" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/ILifecycleListener.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783979" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/Block.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783979" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/equality/LongEqualsEqualityCheck.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783979" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/ISpecVisitor.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783979" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/tools/IDoxFormat.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783979" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/IAnnotatedSpecHandler.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783979" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/Behavior.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783979" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/injection/InjectionSupport.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783979" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/contract/SerializableContract.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783980" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/Specification.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783984" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/DefaultContextObjectFactory.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783980" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/LineNumberStrategy.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783980" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/tools/SpecdoxRunner.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783984" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/injection/IFieldInjector.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783980" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/Group.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783980" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/contract/NotContract.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783984" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/injection/Field.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783980" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/ClassLineNumberComparator.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783980" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/ContainmentSupport.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783980" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/ClassMemberSorter.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783980" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/NotDeltaEqualityCheck.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783981" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/containment/InOrderContainment.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783981" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/util/Collections.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783981" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/containment/InPartialOrderContainment.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783981" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/contract/EqualsHashCodeContract.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783984" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/BaseMatcherContainment.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783981" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/tools/IDoxStore.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783981" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/tools/FileStore.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783981" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/SpecRunner.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783981" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/util/FluentMap.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783981" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/DefaultLifecycleListener.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783981" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/support/Reflection.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783981" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/Groups.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783981" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/ExpectedException.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783981" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/IStringComparisonFailure.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783982" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/IntrospectionStrategy.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783982" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/tools/DoxStoreException.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783982" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/containment/ExactContainment.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783982" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/tools/Specdox.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783982" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/contract/EqualsComparableContract.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783982" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/EqualityCheck.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783982" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/IContextObjectFactory.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783982" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/mock/JDaveErrorTranslator.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783982" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/ExpectedExceptionWithMessage.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783983" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/containment/ObjectContainment.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783983" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/injection/ReflectionException.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783983" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/util/Fields.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783983" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/Not.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783983" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/Scanner.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783983" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/IEqualityCheck.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783983" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/util/Maps.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783983" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/tools/PlainTextFormat.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783984" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/contract/CloneableContract.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783984" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/ExpectationFailedStringComparisonFailure.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783984" ignored="false" />
+    <file path="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/Each.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688783984" ignored="false" />
+    <file path="/AnnotatedSpecScanner.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384690170272" ignored="false" />
+    <file path="/IFileHandler.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384689988036" ignored="false" />
+    <file path="/DescriptionFactory.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384690265528" ignored="false" />
+    <file path="/CodeSource.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384690276279" ignored="false" />
+    <file path="/JDaveCallback.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384690290048" ignored="false" />
+    <file path="/JDaveGroupRunner.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384690308273" ignored="false" />
+    <file path="/ResultsAdapter.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384690317592" ignored="false" />
+    <file path="/JDaveRunner.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384690356758" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/vcs.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384695016249" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +297,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -113,6 +333,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -121,70 +343,79 @@
     <favorites_list name="AcmeTelecom" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.60521173">
       <split-first>
         <leaf>
-          <file leaf-file-name="Runner.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/Runner.java">
+          <file leaf-file-name="BillingSystem.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="67" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+                <state line="8" column="13" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AcceptanceTest.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="AcceptanceTest.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/acceptance/AcceptanceTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="98" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.5949367">
+                <state line="177" column="44" selection-start="7629" selection-end="7629" vertical-scroll-proportion="-46.73077">
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#2032#2042#0" expanded="true" />
+                    <element signature="e#6896#6904#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TariffMock.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/acceptance/TariffMock.java">
+          <file leaf-file-name="index.htm" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/index.htm">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="36" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+                <state line="10" column="31" selection-start="289" selection-end="289" vertical-scroll-proportion="-6.25">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CallEnd.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/CallEnd.java">
+          <file leaf-file-name="CommandLineTest.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/org/junit/tests/running/core/CommandLineTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
+                <state line="36" column="27" selection-start="822" selection-end="822" vertical-scroll-proportion="0.4401914">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CallEvent.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/CallEvent.java">
+          <file leaf-file-name="expected" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/expected">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="31" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CallStart.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/CallStart.java">
+          <file leaf-file-name="expected" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/acceptance/expected">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="0" selection-start="208" selection-end="318" vertical-scroll-proportion="0.0">
+                <state line="11" column="8" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BillGenerator.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/BillGenerator.java">
+          <file leaf-file-name="Tariff.class" pinned="false" current="false" current-in-tab="false">
+            <entry file="jar://$PROJECT_DIR$/lib/external.jar!/com/acmetelecom/customer/Tariff.class">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="61" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+                <state line="18" column="32" selection-start="597" selection-end="597" vertical-scroll-proportion="-10.2">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FilterSpec.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/JDave/jdave-unfinalizer/src/test/jdave/unfinalizer/internal/FilterSpec.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="23" column="0" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -194,9 +425,7 @@
             <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/Call.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="38" column="33" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -214,87 +443,57 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="BillGenerator.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/BillGenerator.java">
+          <file leaf-file-name="JDaveGroupRunner.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/JDave/jdave-junit4/src/java/jdave/junit4/JDaveGroupRunner.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="61" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+                <state line="26" column="26" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TariffLibrary.class" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar://$PROJECT_DIR$/lib/external.jar!/com/acmetelecom/customer/TariffLibrary.class">
+          <file leaf-file-name="JDaveRunnerTest.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/JDave/jdave-junit4/src/test/jdave/junit4/JDaveRunnerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="32" selection-start="219" selection-end="219" vertical-scroll-proportion="-3.6">
+                <state line="17" column="31" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Tariff.class" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar://$PROJECT_DIR$/lib/external.jar!/com/acmetelecom/customer/Tariff.class">
+          <file leaf-file-name="JDaveCallback.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/JDave/jdave-junit4/src/java/jdave/junit4/JDaveCallback.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="28" selection-start="310" selection-end="310" vertical-scroll-proportion="-6.0">
+                <state line="20" column="29" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BillingSystem.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java">
+          <file leaf-file-name="JDaveGroupRunnerTest.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/JDave/jdave-junit4/src/test/jdave/junit4/JDaveGroupRunnerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="84" column="49" selection-start="2680" selection-end="2680" vertical-scroll-proportion="-11.115385">
+                <state line="37" column="39" selection-start="1371" selection-end="1371" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AnnotatedSpecScanner.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/AnnotatedSpecScanner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="45" column="48" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.037037037">
                   <folding>
-                    <element signature="e#409#420#0" expanded="true" />
-                    <element signature="e#2443#2453#0" expanded="true" />
+                    <element signature="e#1971#1972#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CustomerDatabase.class" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar://$PROJECT_DIR$/lib/external.jar!/com/acmetelecom/customer/CustomerDatabase.class">
+          <file leaf-file-name="IFileHandler.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/JDave/jdave-core/src/java/jdave/runner/IFileHandler.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="30" selection-start="184" selection-end="184" vertical-scroll-proportion="-3.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MoneyFormatterInterface.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/MoneyFormatterInterface.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="17" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Printer.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/Printer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="17" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BillingSystemTestDummy.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/BillingSystemTestDummy.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="91" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Customer.class" pinned="false" current="false" current-in-tab="true">
-            <entry file="jar://$PROJECT_DIR$/lib/external.jar!/com/acmetelecom/customer/Customer.class">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="11" selection-start="311" selection-end="311" vertical-scroll-proportion="0.29126215">
+                <state line="22" column="7" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -325,27 +524,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/acmetelecom/peakPeriodInterface.java" />
-        <option value="$PROJECT_DIR$/src/com/acmetelecom/BillGenerator.java" />
-        <option value="$PROJECT_DIR$/src/com/acmetelecom/CallEvent.java" />
-        <option value="$PROJECT_DIR$/src/com/acmetelecom/DaytimePeakPeriod.java" />
-        <option value="$PROJECT_DIR$/src/com/acmetelecom/JodaPlay.java" />
-        <option value="$PROJECT_DIR$/src/com/acmetelecom/Call.java" />
-        <option value="$PROJECT_DIR$/src/com/acmetelecom/Runner.java" />
-        <option value="$PROJECT_DIR$/src/com/acmetelecom/CallStart.java" />
-        <option value="$PROJECT_DIR$/src/com/acmetelecom/CallEnd.java" />
-        <option value="$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java" />
-        <option value="$PROJECT_DIR$/src/com/acmetelecom/BillingSystemTestDummy.java" />
-        <option value="$PROJECT_DIR$/src/acceptance/TariffMock.java" />
+        <option value="$USER_HOME$/JDave/jdave-junit4/src/java/jdave/junit4/JDaveCallback.java" />
+        <option value="$PROJECT_DIR$/src/jdave/jdave/runner/IFileHandler.java" />
+        <option value="$PROJECT_DIR$/src/jdave/jdave/runner/AsmLineNumberStrategy.java" />
+        <option value="$USER_HOME$/JDave/jdave-core/src/java/jdave/runner/IFileHandler.java" />
+        <option value="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/jdave/runner/AnnotatedSpecScanner.java" />
+        <option value="$PROJECT_DIR$/src/jdave/jdave/runner/AnnotatedSpecScanner.java" />
+        <option value="$PROJECT_DIR$/src/junit4/DescriptionFactory.java" />
+        <option value="$PROJECT_DIR$/src/junit4/JDaveCallback.java" />
+        <option value="$PROJECT_DIR$/src/junit4/JDaveGroupRunner.java" />
+        <option value="$PROJECT_DIR$/src/junit4/ResultsAdapter.java" />
+        <option value="$PROJECT_DIR$/src/junit4/JDaveRunner.java" />
+        <option value="$PROJECT_DIR$/src/junit4/CodeSource.java" />
+        <option value="$USER_HOME$/JDave/jdave-unfinalizer/src/test/jdave/unfinalizer/internal/FilterSpec.java" />
+        <option value="$PROJECT_DIR$/src/acceptance/expected" />
         <option value="$PROJECT_DIR$/src/acceptance/AcceptanceTest.java" />
+        <option value="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/org/junit/tests/running/core/CommandLineTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
+    <option name="x" value="-10" />
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="999" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -375,7 +577,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -390,7 +591,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AcmeTelecom" />
+              <option name="myItemId" value="AcmeTelecomFinal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -400,7 +601,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AcmeTelecom" />
+              <option name="myItemId" value="AcmeTelecomFinal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -414,25 +615,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AcmeTelecom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="acmetelecom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AcmeTelecom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AcmeTelecom" />
+              <option name="myItemId" value="AcmeTelecomFinal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -446,37 +629,51 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="options.lastSelected" value="preferences.pathVariables" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/joda-time-2.3.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jdave-unfinalizer-1.2-20101229.103151-1.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="findjar.last.used.dir" value="$USER_HOME$/JDave/Depencencies" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$USER_HOME$/JDave/jdave-core/src/java/jdave/mock" />
+      <recent name="$PROJECT_DIR$/src/jdave" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.acmetelecom" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$USER_HOME$/JDave/Depencencies" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="JUnit.AcceptanceTest">
     <configuration default="false" name="Runner" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -539,6 +736,34 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="acceptance" />
       <option name="MAIN_CLASS_NAME" value="acceptance.AcceptanceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="InstrumentationAgentSpec" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="jdave.unfinalizer.agent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jdave-unfinalizer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="jdave.unfinalizer.agent" />
+      <option name="MAIN_CLASS_NAME" value="jdave.unfinalizer.agent.InstrumentationAgentSpec" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -646,16 +871,18 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Runner" />
       <item index="1" class="java.lang.String" itemvalue="Application.JodaPlay" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.AcceptanceTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.InstrumentationAgentSpec" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.Runner" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AcceptanceTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.JodaPlay" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AcceptanceTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.InstrumentationAgentSpec" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Runner" />
+        <item index="3" class="java.lang.String" itemvalue="Application.JodaPlay" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -710,8 +937,28 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="22" width="1920" height="999" extended-state="6" />
+    <frame x="-10" y="22" width="1920" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -723,17 +970,17 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Actions" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18089648" sideWeight="0.68714446" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3128555" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18089648" sideWeight="0.67285717" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29285714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39974293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="XS Offenders" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287827" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32714286" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -744,6 +991,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -789,7 +1037,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Joda time and Started the acceptance testing using Jmock. NOTE: acceptance testing not yet done, I pushed so you guys can see how JodaTime works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Acceptance Test Written with Mock of Tariff.&#10;Added and expected text file which is compared against the actual output of the system" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -807,6 +1055,7 @@
     <MESSAGE value="Added libraries" />
     <MESSAGE value="Refactored to allow for Acceptance Testing&#10;Extracted Interfaces our of BillGenerator, MoneyFormatter, and injected interfaces for customerDatabase and tariffDatabase" />
     <MESSAGE value="Added Joda time and Started the acceptance testing using Jmock. NOTE: acceptance testing not yet done, I pushed so you guys can see how JodaTime works" />
+    <MESSAGE value="Acceptance Test Written with Mock of Tariff.&#10;Added and expected text file which is compared against the actual output of the system" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -816,16 +1065,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/MoneyFormatterInterface.java">
+    <entry file="file://$USER_HOME$/JDave/jdave-core/src/java/jdave/BaseMatcherContainment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="23" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/BillGeneratorInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/CallEnd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+        <state line="8" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -837,20 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/CallEnd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/CallStart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="208" selection-end="318" vertical-scroll-proportion="0.0">
@@ -858,83 +1091,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/external.jar!/com/acmetelecom/customer/CustomerDatabase.class">
+    <entry file="file://$USER_HOME$/JDave/jdave-core/src/java/jdave/mock/MockSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="184" selection-end="184" vertical-scroll-proportion="-3.0">
+        <state line="19" column="20" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/Runner.java">
+    <entry file="file://$USER_HOME$/JDave/jdave-core/src/java/jdave/runner/SpecRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="67" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+        <state line="26" column="20" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/Call.java">
+    <entry file="file://$USER_HOME$/JDave/jdave-unfinalizer/src/test/jdave/unfinalizer/internal/FilterSpec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="33" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/external.jar!/com/acmetelecom/customer/TariffLibrary.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="32" selection-start="219" selection-end="219" vertical-scroll-proportion="-3.6">
+        <state line="23" column="0" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/BillingSystemTestDummy.java">
+    <entry file="jar://$PROJECT_DIR$/lib/external.jar!/com/acmetelecom/customer/Tariff.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="91" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/acceptance/TariffMock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="36" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+        <state line="18" column="32" selection-start="597" selection-end="597" vertical-scroll-proportion="-10.2">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="49" selection-start="2680" selection-end="2680" vertical-scroll-proportion="-11.115385">
-          <folding>
-            <element signature="e#409#420#0" expanded="true" />
-            <element signature="e#2443#2453#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/external.jar!/com/acmetelecom/customer/Tariff.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="310" selection-end="310" vertical-scroll-proportion="-6.0">
+        <state line="8" column="13" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/external.jar!/com/acmetelecom/customer/Customer.class">
+    <entry file="file://$PROJECT_DIR$/src/acceptance/expected">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="311" selection-end="311" vertical-scroll-proportion="0.29126215">
+        <state line="11" column="8" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expected">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/acceptance/AcceptanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="98" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.5949367">
+        <state line="177" column="44" selection-start="7629" selection-end="7629" vertical-scroll-proportion="-46.73077">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2032#2042#0" expanded="true" />
+            <element signature="e#6896#6904#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="31" selection-start="289" selection-end="289" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/BillGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="61" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/org/junit/tests/running/core/CommandLineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="27" selection-start="822" selection-end="822" vertical-scroll-proportion="0.4401914">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -995,7 +1228,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1015,7 +1247,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>joda-time-2.3-javadoc</last-edited>
+          <last-edited>jdave-unfinalizer-1.2-20101229.103151-1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
