@@ -9,14 +9,17 @@ public class DaytimePeakPeriod {
 
     static public Set<Interval> initializePeak(DateTime day1, DateTime day2){
         Set<Interval> set= new HashSet<Interval>();
-        DateTime day=day1;
-        while (day.isBefore(day2)){
+        MutableDateTime dayMut= day1.toMutableDateTime();
+        dayMut.setTime(0,0,0,0);
+        DateTime day= dayMut.toDateTime();
+        while (day.equals(day2)||day.isBefore(day2)){
             MutableDateTime peak1=day.toMutableDateTime();
             MutableDateTime peak2= day.toMutableDateTime();
             peak1.setTime(7,0,0,0);
             peak2.setTime(19,0,0,0);
             set.add(new Interval(peak1,peak2));
             day=day.plusDays(1);
+
         }
         return set;
     }
