@@ -80,8 +80,7 @@ public class BillingSystemTest {
                will(returnValue((long)100));
             allowing(tariff).peakRate();
                will(returnValue(new BigDecimal("0.08")));
-            allowing(call).startTime();
-            allowing(call).endTime();
+
         }
         });
 
