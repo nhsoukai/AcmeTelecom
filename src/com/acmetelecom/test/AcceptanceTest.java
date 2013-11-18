@@ -1,10 +1,12 @@
-package acceptance;
+package com.acmetelecom.test;
 
 import com.acmetelecom.BillGenerator;
 import com.acmetelecom.BillingSystemTestDummy;
 import com.acmetelecom.CallEnd;
 import com.acmetelecom.CallStart;
 import com.acmetelecom.customer.*;
+import com.acmetelecom.DaytimePeakPeriod;
+import junit.framework.AssertionFailedError;
 import org.jmock.Expectations;
 import org.jmock.Mockery;
 import org.jmock.integration.junit4.JMock;
@@ -60,7 +62,7 @@ public class AcceptanceTest {
         customerDatabase = context.mock(CustomerDatabase.class);
         billingSystem  = new BillingSystemTestDummy(tariffLibrary,
                 customerDatabase,
-                new BillGenerator());
+                new BillGenerator(), new DaytimePeakPeriod());
     }
 
     @After
@@ -167,16 +169,10 @@ public class AcceptanceTest {
 
         while ((expected = br.readLine()) != null) {
             outputLine = outputLineIterator.next();
-            StringBuilder st = new StringBuilder();
-            st.append("On line ");
-            st.append(lineNumber);
-            st.append("%n   EXPECTED: ");
-            st.append(expected);
-            st.append("%n   ACTUAL: ");
-            st.append(outputLine);
-            message = st.toString();
-            assertEquals(expected,outputLine);
-
+             if (!outputLine.equals(expected)) {
+                throw new AssertionFailedError(String.format("On line "+ lineNumber +
+                        "%nExpected: "+ expected + "%nActual" + outputLine));            }
+            lineNumber++;
             // process the line.
         }
         br.close();
@@ -187,7 +183,16 @@ public class AcceptanceTest {
     }
 
 
-
-
+    /**
+     * Created with IntelliJ IDEA.
+     * User: andreipetric
+     * Date: 15/11/2013
+     * Time: 18:16
+     * To change this template use File | Settings | File Templates.
+     */
+    public static interface TariffMock {
+        public BigDecimal peakRate();
+        public BigDecimal offPeakRate();
+    }
 }
 

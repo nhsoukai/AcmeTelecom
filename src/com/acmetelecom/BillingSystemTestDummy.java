@@ -17,8 +17,9 @@ import org.joda.time.DateTime;
 public class BillingSystemTestDummy extends BillingSystem {
     public BillingSystemTestDummy(TariffLibrary tariffLibrary,
                                   CustomerDatabase customerDatabase,
-                                  BillGeneratorInterface billGenerator) {
-        super(tariffLibrary,customerDatabase,billGenerator);
+                                  BillGeneratorInterface billGenerator,
+                                  DaytimePeakPeriod daytimePeakPeriod) {
+        super(tariffLibrary,customerDatabase,billGenerator,daytimePeakPeriod);
     }
     public void callInitiatedAt(String caller, String callee, DateTime time) {
         callLog.add(new CallStart(caller,callee,time));
