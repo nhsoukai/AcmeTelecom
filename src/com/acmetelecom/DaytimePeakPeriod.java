@@ -2,16 +2,23 @@ package com.acmetelecom;
 
 import org.joda.time.*;
 import org.joda.time.MutableDateTime;
+import java.util.*;
 
 class DaytimePeakPeriod {
 
 
-    static public Interval initializePeak(DateTime day){
+    static public Set<Interval> initializePeak(DateTime day1, DateTime day2){
+        Set<Interval> set= new HashSet<Interval>();
+        DateTime day=day1;
+        while (day.isBefore(day2)){
         MutableDateTime peak1=day.toMutableDateTime();
         MutableDateTime peak2= day.toMutableDateTime();
         peak1.setTime(7,0,0,0);
         peak2.setTime(19,0,0,0);
-        return new Interval(peak1,peak2);
+        set.add(new Interval(peak1,peak2));
+        day=day.plusDays(1);
+        }
+        return set;
     }
     //Made this function static
    /* public boolean offPeak(DateTime time) {
@@ -39,12 +46,17 @@ class DaytimePeakPeriod {
     static public long peakDuration(Call call) {
 
         DateTime startTime=call.startTime();
-        Interval peak= initializePeak(startTime);
         DateTime endTime=call.endTime();
+        Set <Interval> peaks= initializePeak(startTime,endTime);
         Interval callInterval= new Interval(startTime,endTime);
-        Interval peakInterval = callInterval.overlap(peak);
-        if (peakInterval==null) return 0;
-        else return peakInterval.toDuration().getStandardSeconds();
+        long peakDuration=0;
+        for( Interval peak :peaks){
+            Interval peakInterval = callInterval.overlap(peak);
+        if (peakInterval!=null)  {
+            peakDuration+=peakInterval.toDuration().getStandardSeconds();
+                }
+        }
+                    return peakDuration;
     }
 
 }
