@@ -11,28 +11,30 @@ import com.acmetelecom.Call;
 import com.acmetelecom.CallEnd;
 import com.acmetelecom.CallStart;
 import com.acmetelecom.DaytimePeakPeriod;
+import org.joda.time.DateTime;
 import org.joda.time.MutableDateTime;
 import org.junit.*;
-
+import static org.junit.Assert.assertEquals;
 
 public class DaytimePeakPeriodTest {
 
 
     MutableDateTime start=new MutableDateTime();
     MutableDateTime end=new MutableDateTime();
-
+    DaytimePeakPeriod daytimePeakPeriod = new DaytimePeakPeriod();
 
     @Test
     public void startOverlapPeakTime() {
-        start.setTime(6,0,0,0);
-        end.setTime(8,0,0,0);
+        start.setTime(6,50,0,0);
+        end.setTime(7,10,0,0);
 
-        CallStart callStart= new CallStart("447722113434", "447766511332", start.toDateTime());
-        CallEnd callEnd= new CallEnd("447722113434", "447766511332", end.toDateTime());
+        CallStart callStart= new CallStart("447722113434", "447766511332", new DateTime(2013,12,12,6,50));
+        CallEnd callEnd= new CallEnd("447722113434", "447766511332", new DateTime(2013,12,12,7,10));
+                //end.toDateTime());
         Call call=new Call(callStart,callEnd);
 
-        assert(DaytimePeakPeriod.offPeakDuration(call)==3600);
-        assert(DaytimePeakPeriod.peakDuration(call)==3600);
+        assertEquals(600,daytimePeakPeriod.offPeakDuration(call));
+        assertEquals(600,daytimePeakPeriod.peakDuration(call));
 
     }
 
@@ -45,8 +47,8 @@ public class DaytimePeakPeriodTest {
         CallEnd callEnd= new CallEnd("447722113434", "447766511332", end.toDateTime());
         Call call=new Call(callStart,callEnd);
 
-        assert(DaytimePeakPeriod.offPeakDuration(call)==3600);
-        assert(DaytimePeakPeriod.peakDuration(call)==3600);
+        assert(daytimePeakPeriod.offPeakDuration(call)==3600);
+        assert(daytimePeakPeriod.peakDuration(call)==3600);
 
     }
 
@@ -58,8 +60,8 @@ public class DaytimePeakPeriodTest {
         CallEnd callEnd= new CallEnd("447722113434", "447766511332", end.toDateTime());
         Call call=new Call(callStart,callEnd);
 
-        assert(DaytimePeakPeriod.offPeakDuration(call)==0);
-        assert(DaytimePeakPeriod.peakDuration(call)==3600);
+        assert(daytimePeakPeriod.offPeakDuration(call)==0);
+        assert(daytimePeakPeriod.peakDuration(call)==3600);
     }
 
 
@@ -71,8 +73,8 @@ public class DaytimePeakPeriodTest {
         CallEnd callEnd= new CallEnd("447722113434", "447766511332", end.toDateTime());
         Call call=new Call(callStart,callEnd);
 
-        assert(DaytimePeakPeriod.offPeakDuration(call)==1800);
-        assert(DaytimePeakPeriod.peakDuration(call)==0);
+        assert(daytimePeakPeriod.offPeakDuration(call)==1800);
+        assert(daytimePeakPeriod.peakDuration(call)==0);
     }
 
 

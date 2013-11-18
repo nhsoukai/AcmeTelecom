@@ -4,14 +4,14 @@ import org.joda.time.*;
 import org.joda.time.MutableDateTime;
 
 public class DaytimePeakPeriod {
+    Interval interval;
 
-
-    static public Interval initializePeak(){
+    public DaytimePeakPeriod (){
         MutableDateTime peak1= new MutableDateTime();
         peak1.setTime(7,0,0,0);
         MutableDateTime peak2= new MutableDateTime();
         peak2.setTime(19,0,0,0);
-        return new Interval(peak1,peak2);
+        interval = new Interval(peak1,peak2);
     }
     //Made this function static
    /* public boolean offPeak(DateTime time) {
@@ -27,7 +27,7 @@ public class DaytimePeakPeriod {
         return !callInterval.overlaps(peak);
     }        */
 
-    static public long offPeakDuration(Call call) {
+    public long offPeakDuration(CallInterface call) {
 
         DateTime startTime=call.startTime();
         DateTime endTime=call.endTime();
@@ -36,12 +36,11 @@ public class DaytimePeakPeriod {
         else
             return callInterval.minus(peakDuration(call)*1000).getStandardSeconds();
     }
-    static public long peakDuration(Call call) {
-        Interval peak= initializePeak();
+    public long peakDuration(CallInterface call) {
         DateTime startTime=call.startTime();
         DateTime endTime=call.endTime();
         Interval callInterval= new Interval(startTime,endTime);
-        Interval peakInterval = callInterval.overlap(peak);
+        Interval peakInterval = callInterval.overlap(interval);
         if (peakInterval==null) return 0;
         else return peakInterval.toDuration().getStandardSeconds();
     }

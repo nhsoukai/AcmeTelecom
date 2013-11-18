@@ -1,13 +1,11 @@
 package com.acmetelecom.test;
 
-import com.acmetelecom.BillGeneratorInterface;
-import com.acmetelecom.BillingSystem;
-import com.acmetelecom.Call;
-import com.acmetelecom.DaytimePeakPeriod;
+import com.acmetelecom.*;
 import com.acmetelecom.customer.Customer;
 import com.acmetelecom.customer.CustomerDatabase;
 import com.acmetelecom.customer.Tariff;
 import com.acmetelecom.customer.TariffLibrary;
+import org.jmock.*;
 import org.jmock.Expectations;
 import org.jmock.Mockery;
 import org.jmock.integration.junit4.JMock;
@@ -22,6 +20,12 @@ import jdave.unfinalizer.Unfinalizer;
 import static org.junit.Assert.assertEquals;
 import java.math.BigDecimal;
 
+import org.jmock.Expectations;
+import org.jmock.Mockery;
+import org.jmock.integration.junit4.JMock;
+import org.jmock.integration.junit4.JUnit4Mockery;
+import org.junit.Test;
+import org.junit.runner.RunWith;
 /**
  * Created with IntelliJ IDEA.
  * User: andreipetric
@@ -41,14 +45,14 @@ public class BillingSystemTest {
     private DaytimePeakPeriod daytimePeakPeriod;
     private Customer customer;
     private TariffLibrary tariffLibrary;
-    private Tariff tariff;
+    //private Tariff tariff;
 
 
     @Before
     public void prepareTest() {
         Unfinalizer.unfinalize();
         context.setImposteriser(ClassImposteriser.INSTANCE);
-        tariff = context.mock(Tariff.class);
+
         customerDatabase = context.mock(CustomerDatabase.class);
         customer = context.mock(Customer.class);
 
@@ -58,23 +62,31 @@ public class BillingSystemTest {
                                           billGenerator,daytimePeakPeriod);
     }
 
-    //Test that BillingSystem
+    //Test that BillingSystem calculates costs correctly
     @Test
     public void testCalculateCost() throws Exception {
-        final Call call = context.mock(Call.class);
+
+        Unfinalizer.unfinalize();
+        context.setImposteriser(ClassImposteriser.INSTANCE);
+        final Tariff tariff = context.mock(Tariff.class);
+        final CallInterface call = context.mock(CallInterface.class);
+
         context.checking( new Expectations() {{
             allowing(daytimePeakPeriod).offPeakDuration(call);
-               will(returnValue(100));
-            allowing(tariff.offPeakRate());
+               will(returnValue((long)100));
+            allowing(tariff).offPeakRate();
                will(returnValue(new BigDecimal("0.03")));
             allowing(daytimePeakPeriod).peakDuration(call);
-               will(returnValue(100));
-            allowing(tariff.peakRate());
+               will(returnValue((long)100));
+            allowing(tariff).peakRate();
                will(returnValue(new BigDecimal("0.08")));
+
         }
         });
 
         BigDecimal totalCost = billingSystem.calculateTotalCost(call,tariff);
-        assertEquals(totalCost,new BigDecimal("0.54"));
+        assertEquals(new BigDecimal("11.00"),totalCost);
     }
+
+
 }

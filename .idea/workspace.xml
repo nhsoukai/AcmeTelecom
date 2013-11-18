@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="785fb098-fd06-4090-bd2d-378e67f528f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/acmetelecom/test/BillingSystemTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/acmetelecom/CostCalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/acmetelecom/test/DaytimePeakPeriodTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/acceptance/TariffMock.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/acceptance/AcceptanceTest.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/test/AcceptanceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/acmetelecom/CallInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcmeTelecom.iml" afterPath="$PROJECT_DIR$/AcmeTelecom.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/BillingSystemTestDummy.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/BillingSystemTestDummy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/test/BillingSystemTest.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/test/BillingSystemTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/Call.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/Call.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/DaytimePeakPeriod.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/DaytimePeakPeriod.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/test/DaytimePeakPeriodTest.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/test/DaytimePeakPeriodTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AcmeTelecom.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384783133821" ignored="false" />
+    <file path="/Dummy.txt" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384787566279" ignored="false" />
     <file path="$PROJECT_DIR$/../git_repo/c475_cw2_acmetelecom/AcmeTelecom/.idea/workspace.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384365371713" ignored="false" />
     <file path="$PROJECT_DIR$/lib/joda-time-2.3/src/main/java/org/joda/time/ReadableDuration.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384365638022" ignored="false" />
     <file path="$PROJECT_DIR$/lib/joda-time-2.3/src/main/java/org/joda/time/tz/DefaultNameProvider.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384365638022" ignored="false" />
@@ -34,10 +33,10 @@
     <file path="$PROJECT_DIR$/lib/joda-time-2.3/src/main/java/org/joda/time/field/BaseDateTimeField.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384365638023" ignored="false" />
     <file path="$PROJECT_DIR$/lib/joda-time-2.3/src/main/java/org/joda/time/format/DateTimeFormatterBuilder.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384365638023" ignored="false" />
     <file path="$PROJECT_DIR$/../AcmeTelecomtest/.idea/workspace.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384382541298" ignored="false" />
-    <file path="/BillingSystem.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384785630203" ignored="false" />
-    <file path="/DaytimePeakPeriod.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384785862091" ignored="false" />
+    <file path="/BillingSystem.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384790305382" ignored="false" />
+    <file path="/DaytimePeakPeriod.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384791400051" ignored="false" />
     <file path="/BillGenerator.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384428729057" ignored="false" />
-    <file path="/fragment.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384785894032" ignored="false" />
+    <file path="/fragment.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384788509297" ignored="false" />
     <file path="$PROJECT_DIR$/../../../Labs/audio-guide/test/guide/AudioGuideTest.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384443411084" ignored="false" />
     <file path="/AudioGuideTest.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384443286728" ignored="false" />
     <file path="$PROJECT_DIR$/../../../Labs/audio-guide/src/guide/AudioGuide.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384443411084" ignored="false" />
@@ -56,7 +55,7 @@
     <file path="$PROJECT_DIR$/../AcmeTelecomsecond/src/com/acmetelecom/Call.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384534074254" ignored="false" />
     <file path="$PROJECT_DIR$/../AcmeTelecomsecond/src/com/acmetelecom/HtmlPrinter.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384534318264" ignored="false" />
     <file path="/BillingSystemTestDummy.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384785988151" ignored="false" />
-    <file path="/AcceptanceTest.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384785824562" ignored="false" />
+    <file path="/AcceptanceTest.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384788370241" ignored="false" />
     <file path="$USER_HOME$/Downloads/audio-guide/.idea/workspace.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688296919" ignored="false" />
     <file path="/TariffMock.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384539407529" ignored="false" />
     <file path="$PROJECT_DIR$/../SWCW/.idea/workspace.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384688331772" ignored="false" />
@@ -225,10 +224,11 @@
     <file path="/ResultsAdapter.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384690317592" ignored="false" />
     <file path="/JDaveRunner.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384690356758" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/vcs.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384695016249" ignored="false" />
-    <file path="$PROJECT_DIR$/../AcmeTelecomFinal/.idea/workspace.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384787268281" ignored="false" />
-    <file path="/BillingSystemTest.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384787460720" ignored="false" />
+    <file path="$PROJECT_DIR$/../AcmeTelecomFinal/.idea/workspace.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384791668914" ignored="false" />
+    <file path="/BillingSystemTest.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384789984168" ignored="false" />
     <file path="/DayTimePeakPeriodTest.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384784867119" ignored="false" />
     <file path="/CostCalculator.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384787261876" ignored="false" />
+    <file path="/DaytimePeakPeriodTest.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384791122235" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +279,38 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java" line="105" class="com.acmetelecom.BillingSystem" package="com.acmetelecom">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/acmetelecom/DaytimePeakPeriod.java" line="36" class="com.acmetelecom.DaytimePeakPeriod" package="com.acmetelecom">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -289,63 +320,96 @@
     <favorites_list name="AcmeTelecom" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.4754816">
       <split-first>
         <leaf>
-          <file leaf-file-name="AcceptanceTest.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/test/AcceptanceTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="122" column="8" selection-start="5039" selection-end="5091" vertical-scroll-proportion="0.35064936">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BillingSystemTestDummy.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/BillingSystemTestDummy.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="69" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="expected" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/expected">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="expected" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/acceptance/expected">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="60" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Tariff.class" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar://$PROJECT_DIR$/lib/external.jar!/com/acmetelecom/customer/Tariff.class">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="32" selection-start="597" selection-end="597" vertical-scroll-proportion="-8.08">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DaytimePeakPeriodTest.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="DaytimePeakPeriodTest.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/test/DaytimePeakPeriodTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="39" column="20" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0">
+                <state line="26" column="4" selection-start="676" selection-end="676" vertical-scroll-proportion="0.3117284">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DelegatingMethodAccessorImpl.class" pinned="false" current="false" current-in-tab="false">
+            <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="28" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Method.class" pinned="false" current="false" current-in-tab="false">
+            <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/reflect/Method.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="64" column="28" selection-start="2816" selection-end="2816" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FrameworkMethod.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="jar://$PROJECT_DIR$/lib/junit-4.8.2-src.jar!/org/junit/runners/model/FrameworkMethod.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="40" column="0" selection-start="1183" selection-end="1183" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="e#1192#1342#0" expanded="true" />
+                    <element signature="e#1337#1338#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InvokeMethod.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="jar://$PROJECT_DIR$/lib/junit-4.8.2-src.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="20" column="0" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ReflectiveCallable.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="jar://$PROJECT_DIR$/lib/junit-4.8.2-src.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BlockJUnit4ClassRunner.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="jar://$PROJECT_DIR$/lib/junit-4.8.2-src.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="48" column="0" selection-start="1966" selection-end="1966" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ParentRunner.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="jar://$PROJECT_DIR$/lib/junit-4.8.2-src.jar!/org/junit/runners/ParentRunner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="242" column="0" selection-start="8294" selection-end="8294" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="e#6903#6997#0" expanded="true" />
+                    <element signature="e#6992#6993#0" expanded="true" />
+                    <element signature="e#7127#7230#0" expanded="true" />
+                    <element signature="e#7224#7225#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="JUnitCore.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="jar://$PROJECT_DIR$/lib/junit-4.8.2-src.jar!/org/junit/runner/JUnitCore.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="157" column="0" selection-start="5562" selection-end="5562" vertical-scroll-proportion="0.0">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -353,39 +417,11 @@
           <file leaf-file-name="DaytimePeakPeriod.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/DaytimePeakPeriod.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="7" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+                <state line="36" column="0" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0">
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <marker date="1384791309000" expanded="true" signature="178:403" placeholder="{...}" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BillingSystemTest.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/test/BillingSystemTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="49" column="63" selection-start="1520" selection-end="1572" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CostCalculator.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/CostCalculator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="7" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BillGenerator.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/BillGenerator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="13" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -394,10 +430,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="DaytimePeakPeriod.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="DaytimePeakPeriod.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/DaytimePeakPeriod.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="23" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
+                <state line="8" column="4" selection-start="150" selection-end="150" vertical-scroll-proportion="-0.105405405">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -405,10 +441,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BillingSystem.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="BillingSystem.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="59" selection-start="1084" selection-end="1084" vertical-scroll-proportion="-2.2273781">
+                <state line="105" column="0" selection-start="3871" selection-end="3871" vertical-scroll-proportion="0.0">
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#457#468#0" expanded="true" />
@@ -433,6 +469,15 @@
             <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/HtmlPrinter.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="2" column="6" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="expected" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/acceptance/expected">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="24" selection-start="751" selection-end="758" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -463,22 +508,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/junit4/JDaveGroupRunner.java" />
-        <option value="$PROJECT_DIR$/src/junit4/ResultsAdapter.java" />
         <option value="$PROJECT_DIR$/src/junit4/JDaveRunner.java" />
         <option value="$PROJECT_DIR$/src/junit4/CodeSource.java" />
         <option value="$USER_HOME$/JDave/jdave-unfinalizer/src/test/jdave/unfinalizer/internal/FilterSpec.java" />
         <option value="$PROJECT_DIR$/src/acceptance/expected" />
         <option value="$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/org/junit/tests/running/core/CommandLineTest.java" />
         <option value="$PROJECT_DIR$/src/com/acmetelecom/DayTimePeakPeriodTest.java" />
-        <option value="$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java" />
         <option value="$PROJECT_DIR$/src/acceptance/AcceptanceTest.java" />
-        <option value="$PROJECT_DIR$/src/com/acmetelecom/DaytimePeakPeriod.java" />
         <option value="$PROJECT_DIR$/src/com/acmetelecom/BillingSystemTestDummy.java" />
         <option value="$PROJECT_DIR$/src/com/acmetelecom/BillingSystemTest.java" />
-        <option value="$PROJECT_DIR$/src/com/acmetelecom/test/AcceptanceTest.java" />
         <option value="$PROJECT_DIR$/src/com/acmetelecom/CostCalculator.java" />
+        <option value="$PROJECT_DIR$/src/com/acmetelecom/test/AcceptanceTest.java" />
+        <option value="$PROJECT_DIR$/src/com/acmetelecom/Call.java" />
         <option value="$PROJECT_DIR$/src/com/acmetelecom/test/BillingSystemTest.java" />
+        <option value="$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java" />
+        <option value="$PROJECT_DIR$/src/com/acmetelecom/test/DaytimePeakPeriodTest.java" />
+        <option value="$PROJECT_DIR$/src/com/acmetelecom/DaytimePeakPeriod.java" />
       </list>
     </option>
   </component>
@@ -645,35 +690,7 @@
       <recent name="$USER_HOME$/JDave/Depencencies" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BillingSystemTest">
-    <configuration default="false" name="Runner" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.acmetelecom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.acmetelecom.Runner" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="AcmeTelecom" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in AcmeTelecom">
     <configuration default="false" name="AcceptanceTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -698,7 +715,13 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -754,7 +777,13 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -772,6 +801,29 @@
       <option name="MAIN_CLASS_NAME" value="com.acmetelecom.test.BillingSystemTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in AcmeTelecom" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="AcmeTelecom" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -878,19 +930,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Runner" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AcceptanceTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.InstrumentationAgentSpec" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DaytimePeakPeriodTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BillingSystemTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AcceptanceTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.InstrumentationAgentSpec" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DaytimePeakPeriodTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BillingSystemTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in AcmeTelecom" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BillingSystemTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AcceptanceTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DaytimePeakPeriodTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.InstrumentationAgentSpec" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Runner" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in AcmeTelecom" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DaytimePeakPeriodTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AcceptanceTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BillingSystemTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.InstrumentationAgentSpec" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -942,7 +994,11 @@
       <created>1384431329411</created>
       <updated>1384431329411</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Doukaina's implementation included, but still fials acceptance test">
+      <created>1384787573541</created>
+      <updated>1384787573541</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -967,7 +1023,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="820" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -981,14 +1037,15 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Actions" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18077475" sideWeight="0.70714283" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29285714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18077475" sideWeight="0.62" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39974293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39857143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="XS Offenders" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2657143" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -998,7 +1055,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1045,7 +1101,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Acceptance Test Written with Mock of Tariff.&#10;Added and expected text file which is compared against the actual output of the system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doukaina's implementation included, but still fials acceptance test" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1064,6 +1120,7 @@
     <MESSAGE value="Refactored to allow for Acceptance Testing&#10;Extracted Interfaces our of BillGenerator, MoneyFormatter, and injected interfaces for customerDatabase and tariffDatabase" />
     <MESSAGE value="Added Joda time and Started the acceptance testing using Jmock. NOTE: acceptance testing not yet done, I pushed so you guys can see how JodaTime works" />
     <MESSAGE value="Acceptance Test Written with Mock of Tariff.&#10;Added and expected text file which is compared against the actual output of the system" />
+    <MESSAGE value="Doukaina's implementation included, but still fials acceptance test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1073,58 +1130,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/JDave/jdave-core/src/java/jdave/runner/IFileHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="7" selection-start="700" selection-end="700" vertical-scroll-proportion="0.27027026">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/doc/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="289" selection-end="289" vertical-scroll-proportion="-3.7916667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jDave/Depencencies/junit4.5/org/junit/tests/running/core/CommandLineTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="26" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expected">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/external.jar!/com/acmetelecom/customer/Tariff.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="32" selection-start="597" selection-end="597" vertical-scroll-proportion="-8.08">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/MoneyFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/HtmlPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="105" column="0" selection-start="3871" selection-end="3871" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#457#468#0" expanded="true" />
+            <element signature="e#1826#1837#0" expanded="true" />
+            <element signature="e#2074#2080#0" expanded="true" />
+            <element signature="e#2518#2528#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/acceptance/expected">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="60" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+        <state line="25" column="24" selection-start="751" selection-end="758" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1136,63 +1157,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/test/DaytimePeakPeriodTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="20" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/CostCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="59" selection-start="1084" selection-end="1084" vertical-scroll-proportion="-2.2273781">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#457#468#0" expanded="true" />
-            <element signature="e#1826#1837#0" expanded="true" />
-            <element signature="e#2074#2080#0" expanded="true" />
-            <element signature="e#2518#2528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/DaytimePeakPeriod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="7" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/BillGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/test/BillingSystemTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="63" selection-start="1520" selection-end="1572" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="19" column="0" selection-start="628" selection-end="672" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/test/AcceptanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="8" selection-start="5039" selection-end="5091" vertical-scroll-proportion="0.35064936">
+        <state line="154" column="0" selection-start="6751" selection-end="6751" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="28" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/reflect/Method.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="28" selection-start="2816" selection-end="2816" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/DaytimePeakPeriod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1384791309000" expanded="true" signature="178:403" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.8.2-src.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.8.2-src.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1183" selection-end="1183" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1192#1342#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.8.2-src.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.8.2-src.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1966" selection-end="1966" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.8.2-src.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="0" selection-start="8294" selection-end="8294" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#6903#6997#0" expanded="true" />
+            <element signature="e#6992#6993#0" expanded="true" />
+            <element signature="e#7127#7230#0" expanded="true" />
+            <element signature="e#7224#7225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.8.2-src.jar!/org/junit/runner/JUnitCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="0" selection-start="5562" selection-end="5562" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/acmetelecom/test/DaytimePeakPeriodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="4" selection-start="676" selection-end="676" vertical-scroll-proportion="0.3117284">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1256,6 +1320,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
