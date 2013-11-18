@@ -32,13 +32,16 @@ public class DaytimePeakPeriod {
         DateTime startTime=call.startTime();
         DateTime endTime=call.endTime();
         Duration callInterval= new Duration(startTime,endTime);
-        if (callInterval.minus(peakDuration(call))==null) return 0;
+        if (callInterval.minus(peakDuration(call)*1000)==null) return 0;
         else
             return callInterval.minus(peakDuration(call)*1000).getStandardSeconds();
     }
     public long peakDuration(Call call) {
         DateTime startTime=call.startTime();
         DateTime endTime=call.endTime();
+
+
+
         Interval callInterval= new Interval(startTime,endTime);
         Interval peakInterval = callInterval.overlap(interval);
         if (peakInterval==null) return 0;
