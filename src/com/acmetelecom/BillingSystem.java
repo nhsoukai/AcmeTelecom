@@ -100,7 +100,7 @@ public class BillingSystem {
         billGenerator.send(customer, items, MoneyFormatter.penceToPounds(totalBill));
     }
 
-    public BigDecimal calculateTotalCost(CallInterface call, Tariff tariff) {
+    public BigDecimal calculateTotalCost(Call call, Tariff tariff) {
         BigDecimal offPeakCost = new BigDecimal(daytimePeakPeriod.offPeakDuration(call)).multiply(tariff.offPeakRate());
         BigDecimal peakCost = new BigDecimal(daytimePeakPeriod.peakDuration(call)).multiply(tariff.peakRate());
         return offPeakCost.add(peakCost);

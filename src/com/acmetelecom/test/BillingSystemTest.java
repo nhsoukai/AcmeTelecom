@@ -69,7 +69,7 @@ public class BillingSystemTest {
         Unfinalizer.unfinalize();
         context.setImposteriser(ClassImposteriser.INSTANCE);
         final Tariff tariff = context.mock(Tariff.class);
-        final CallInterface call = context.mock(CallInterface.class);
+        final Call call = context.mock(Call.class);
 
         context.checking( new Expectations() {{
             allowing(daytimePeakPeriod).offPeakDuration(call);

@@ -27,7 +27,7 @@ public class DaytimePeakPeriod {
         return !callInterval.overlaps(peak);
     }        */
 
-    public long offPeakDuration(CallInterface call) {
+    public long offPeakDuration(Call call) {
 
         DateTime startTime=call.startTime();
         DateTime endTime=call.endTime();
@@ -36,7 +36,7 @@ public class DaytimePeakPeriod {
         else
             return callInterval.minus(peakDuration(call)*1000).getStandardSeconds();
     }
-    public long peakDuration(CallInterface call) {
+    public long peakDuration(Call call) {
         DateTime startTime=call.startTime();
         DateTime endTime=call.endTime();
         Interval callInterval= new Interval(startTime,endTime);

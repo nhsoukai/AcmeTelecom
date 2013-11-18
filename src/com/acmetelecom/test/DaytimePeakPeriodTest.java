@@ -7,6 +7,7 @@ package com.acmetelecom.test;
  * Time: 22:03
  * To change this template use File | Settings | File Templates.
  */
+
 import com.acmetelecom.Call;
 import com.acmetelecom.CallEnd;
 import com.acmetelecom.CallStart;
@@ -33,8 +34,8 @@ public class DaytimePeakPeriodTest {
                 //end.toDateTime());
         Call call=new Call(callStart,callEnd);
 
-        assertEquals(600,daytimePeakPeriod.offPeakDuration(call));
-        assertEquals(600,daytimePeakPeriod.peakDuration(call));
+        assertEquals(600, daytimePeakPeriod.offPeakDuration(call));
+        assertEquals(600, daytimePeakPeriod.peakDuration(call));
 
     }
 
