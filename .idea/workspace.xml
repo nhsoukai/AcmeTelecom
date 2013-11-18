@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="785fb098-fd06-4090-bd2d-378e67f528f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/acmetelecom/CallInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcmeTelecom.iml" afterPath="$PROJECT_DIR$/AcmeTelecom.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/BillingSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/test/BillingSystemTest.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/test/BillingSystemTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/Call.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/Call.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/DaytimePeakPeriod.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/DaytimePeakPeriod.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/acmetelecom/test/DaytimePeakPeriodTest.java" afterPath="$PROJECT_DIR$/src/com/acmetelecom/test/DaytimePeakPeriodTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AcmeTelecom.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384787566279" ignored="false" />
+    <file path="/Dummy.txt" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384791703718" ignored="false" />
     <file path="$PROJECT_DIR$/../git_repo/c475_cw2_acmetelecom/AcmeTelecom/.idea/workspace.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384365371713" ignored="false" />
     <file path="$PROJECT_DIR$/lib/joda-time-2.3/src/main/java/org/joda/time/ReadableDuration.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384365638022" ignored="false" />
     <file path="$PROJECT_DIR$/lib/joda-time-2.3/src/main/java/org/joda/time/tz/DefaultNameProvider.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384365638022" ignored="false" />
@@ -224,7 +217,7 @@
     <file path="/ResultsAdapter.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384690317592" ignored="false" />
     <file path="/JDaveRunner.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384690356758" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/vcs.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384695016249" ignored="false" />
-    <file path="$PROJECT_DIR$/../AcmeTelecomFinal/.idea/workspace.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384791668914" ignored="false" />
+    <file path="$PROJECT_DIR$/../AcmeTelecomFinal/.idea/workspace.xml" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384791702917" ignored="false" />
     <file path="/BillingSystemTest.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384789984168" ignored="false" />
     <file path="/DayTimePeakPeriodTest.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384784867119" ignored="false" />
     <file path="/CostCalculator.java" changelist="785fb098-fd06-4090-bd2d-378e67f528f2" time="1384787261876" ignored="false" />
@@ -998,7 +991,11 @@
       <created>1384787573541</created>
       <updated>1384787573541</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Doukaina's implementation included, but still fials acceptance test">
+      <created>1384791710536</created>
+      <updated>1384791710536</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
