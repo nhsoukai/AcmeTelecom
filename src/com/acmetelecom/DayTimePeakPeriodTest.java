@@ -19,6 +19,21 @@ public class DayTimePeakPeriodTest {
     MutableDateTime start=new MutableDateTime();
     MutableDateTime end=new MutableDateTime();
 
+
+    @Test
+    public void twoDaysCall() {
+
+
+
+        CallStart callStart= new CallStart("447722113434", "447766511332", new DateTime(2013,12,11,23,50));
+        CallEnd callEnd= new CallEnd("447722113434", "447766511332", new DateTime(2013,12,12,7,10));
+        Call call=new Call(callStart,callEnd);
+
+        assertEquals(25800, DaytimePeakPeriod.offPeakDuration(call));
+        assertEquals(600, DaytimePeakPeriod.peakDuration(call));
+
+    }
+
     @Test
     public void startOverlapPeakTime() {
         start.setTime(6,50,0,0);
