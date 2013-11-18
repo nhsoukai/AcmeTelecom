@@ -44,8 +44,8 @@ public class DaytimePeakPeriodTest {
 
         start.setTime(18,0,0,0);
         end.setTime(20,0,0,0);
-        CallStart callStart= new CallStart("447722113434", "447766511332", start.toDateTime());
-        CallEnd callEnd= new CallEnd("447722113434", "447766511332", end.toDateTime());
+        CallStart callStart= new CallStart("447722113434", "447766511332", new DateTime(2012,12,12,18,0));
+        CallEnd callEnd= new CallEnd("447722113434", "447766511332", new DateTime(2012,12,12,20,0));
         Call call=new Call(callStart,callEnd);
 
         assert(daytimePeakPeriod.offPeakDuration(call)==3600);
